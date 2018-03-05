@@ -1,0 +1,132 @@
+body{
+  background: #767686;
+}
+.flex-parent{
+display:flex;
+flex-direction: row;
+justify-content: center;
+border:1px solid #111;
+
+}
+.flex-parent>div{
+  background:#fff;
+  padding: 2%;
+  margin:1%;
+}
+.profile-child{
+  background: #ffff;
+  width: 30%;
+  padding: 2%;
+ margin: 2%;
+ border: 2px solid #1276;
+ box-shadow: 3px 3px black;
+}
+.content-child{
+  background:#111;
+  width: 70%;
+  padding: 2%;
+  margin: 2%;
+border: 2px solid #1276;
+box-shadow: 3px 3px black;
+}
+h2{
+  background:#ddd;
+  padding: 2px;
+  text-align: center;
+
+}
+.profile_img{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 70%;
+  height: auto;
+}
+.profile_circle{
+  border-radius:50%;
+border: 3px #000;
+}
+a{
+  text-decoration: none;
+}
+@media (max-width:480px){
+  .flex-parent{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  border:1px solid #111;
+
+  }
+
+  .profile-child{
+    background: #ffff;
+    width: 100%;
+    padding: 2%;
+   margin: 2%;
+   border: 2px solid #1276;
+   box-shadow: 3px 3px black;
+  }
+  .content-child{
+    background:#111;
+    width:100%;
+    padding: 2%;
+    margin: 2%;
+  border: 2px solid #1276;
+  box-shadow: 3px 3px black;
+  }
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+  .flex-parent{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  border:1px solid #111;
+
+  }
+
+  .profile-child{
+    background: #ffff;
+    width: 100%;
+    padding: 2%;
+   margin: 2%;
+   border: 2px solid #1276;
+   box-shadow: 3px 3px black;
+  }
+  .content-child{
+    background:#111;
+    width: 100%;
+    padding: 2%;
+    margin: 2%;
+  border: 2px solid #1276;
+  box-shadow: 3px 3px black;
+  }
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+  .flex-parent{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  border:1px solid #111;
+
+  }
+
+  .profile-child{
+    background: #ffff;
+    width: 100%;
+    padding: 2%;
+   margin: 2%;
+   border: 2px solid #1276;
+   box-shadow: 3px 3px black;
+  }
+  .content-child{
+    background:#111;
+    width: 100%;
+    padding: 2%;
+    margin: 2%;
+  border: 2px solid #1276;
+  box-shadow: 3px 3px black;
+  }
+}
